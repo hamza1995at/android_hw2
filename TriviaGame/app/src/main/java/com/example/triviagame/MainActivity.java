@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Perform action on click
+                // Starts the game
                 Intent intent=new  Intent(MainActivity.this,Questions.class);
                 MainActivity.this.startActivity(intent);
             }
